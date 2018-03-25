@@ -5,7 +5,7 @@ attr_accessor :name
   def new
     @name = name
     @songs = []
-  end 
+  end
 
   def songs
     @songs
