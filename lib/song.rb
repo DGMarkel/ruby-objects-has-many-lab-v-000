@@ -9,8 +9,8 @@ attr_accessor :name, :artist
     @name
   end
 
-  def artist(artist)
-    Artist.new(artist)
+  def artist
+    @artist
   end
 
   def artist_name
