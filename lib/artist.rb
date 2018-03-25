@@ -12,7 +12,7 @@ attr_accessor :name
   end
 
   def add_song(song)
-    @songs << self.song
+    @songs << self
   end
 
   def add_song_by_name(name)
