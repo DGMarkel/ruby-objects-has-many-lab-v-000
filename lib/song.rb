@@ -1,9 +1,8 @@
 class Song
 attr_accessor :name, :artist
 
-  def new(name, artist = nil)
+  def new(name)
     @name = name
-    @artist = artist
   end
 
   def name
